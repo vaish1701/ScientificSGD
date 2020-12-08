@@ -1,4 +1,4 @@
-# Scientific Computation and Visualization (CSCI 596) - Parallelization of Stochastic Gradient Descent (SGD) Algorithm for Linear Regression.
+# Scientific Computing & Visualization (CSCI 596) - Parallelization of Stochastic Gradient Descent (SGD) Algorithm for Linear Regression.
 
 The problem of data scarcity is very important since data are at the core of any AI project. The size of a dataset is often responsible for poor performances in ML projects, especially in case of Supervised machine learning. 
 
