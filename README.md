@@ -23,7 +23,7 @@ Above image corresponds to executing SGD on a single process(without paralleliza
 
 Above is the stats for running SGD across 4 processes. Each section corresponds to the execution detail of a single process. The initial batch of size 500, has been divided across 4 processes with each process handling 125 data points. We were able to observe the data points alloted were distinct, confirming the data distribution(line 4 in each section). Loss attained across all the process stays between 39-40 without any fluctuation, thereby achieving the goal. 
 
-<screenshot 2> -- gradient weight values 
+![](/Screenshot2.png) 
 SGD was run across 2 processes and the above information was obtained. The image shows how the final gradient has been calculated by averaging its' own gradient value and the gradient values gathered from the neighbours. 
 
 # Future Scope 
